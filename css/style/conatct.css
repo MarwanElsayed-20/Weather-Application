@@ -1,0 +1,59 @@
+section {
+  background-color: var(--main-background-color);
+}
+section nav {
+  background: #262936;
+  border-radius: 40px;
+  padding: 20px 30px !important;
+  font-size: 13px;
+}
+section .breadcrumb {
+  margin: 0;
+}
+section .breadcrumb a {
+  color: var(--text-color);
+}
+section .breadcrumb a:hover {
+  text-decoration: underline;
+}
+section .breadcrumb li {
+  color: var(--white-color) !important;
+}
+.body {
+  padding: 70px 0;
+}
+.location {
+  padding: 10px 25px;
+  background-color: var(--secondary-background-color);
+  border-radius: 10px;
+}
+.map {
+  padding: 100px;
+}
+.location .location-details i {
+  color: var(--main-color);
+}
+.body .contact-us .form-control {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  color: white;
+  border: 2px solid #393c48;
+  background: transparent;
+  border-radius: 30px;
+  transition: 0.3s ease;
+}
+.body .contact-us .form-control:hover {
+  border-color: var(--main-color);
+}
+::placeholder {
+  color: var(--secondary-background-color) !important;
+}
+.form-control:focus {
+  outline: 0;
+  box-shadow: unset;
+  border-color: var(--main-color) !important;
+}
+.body .contact-us input[type="button"] {
+  padding: 10px 30px;
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment - 11 ( JS - 5 )</title>
+    <link rel="icon" type="image/x-icon" href="../imgs/cloud-icon.png" />
+    <!-- stylesheets link -->
+    <!-- font awesome -->
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <!-- custom stylesheets -->
+    <link rel="stylesheet" href="../css/style/index.css" />
+    <link rel="stylesheet" href="../css/style/conatct.css" />
+    <link rel="stylesheet" href="../css/media.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a
+          class="navbar-brand d-flex justify-content-center align-items-center"
+          href="../index.html"
+        >
+          <div class="logo-img me-3">
+            <img src="../imgs/logo.png" alt="" class="img-fluid" />
+          </div>
+          <div
+            class="logo-body d-flex justify-content-center align-items-start flex-column"
+          >
+            <h1 class="m-0">Weather</h1>
+            <span>taglines goes here</span>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="..//index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- body -->
+    <section>
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb align-items-center">
+            <li class="breadcrumb-item me-2">
+              <a href="../index.html">Home</a>
+            </li>
+            <i class="fa-solid fa-arrow-right me-2"></i>
+            <li class="breadcrumb-item me-2 active" aria-current="page">
+              Contact
+            </li>
+          </ol>
+        </nav>
+        <div class="body">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="location">
+                <div
+                  class="map"
+                  data-latitude="-6.897789"
+                  data-longitude="107.621735"
+                ></div>
+                <div class="location-details">
+                  <ul>
+                    <li>
+                      <p class="m-0">
+                        <i class="fa-solid fa-location-dot me-1"></i> Company
+                        Name INC. 2803 Avenue Street, Los Angeles
+                      </p>
+                    </li>
+                    <li>
+                      <p class="m-0">
+                        <i class="fa-solid fa-phone me-1"></i> +1 800 314 235
+                      </p>
+                    </li>
+                    <li>
+                      <p class="m-0">
+                        <i class="fa-solid fa-envelope me-1"></i>
+                        contact@companyname.com
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 offset-md-1">
+              <div class="contact-us">
+                <h2 class="text-white">Contact us</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Commodi consectetur inventore ducimus, facilis, numquam id
+                  soluta omnis eius recusandae nesciunt vero repellat harum cum.
+                  Nisi facilis odit hic, ipsum sed!
+                </p>
+                <form action="">
+                  <div class="row">
+                    <div class="col">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Your name..."
+                        aria-label="First name"
+                      />
+                    </div>
+                    <div class="col">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Email Addresss..."
+                        aria-label="Last name"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Company name..."
+                        aria-label="First name"
+                      />
+                    </div>
+                    <div class="col">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Website..."
+                        aria-label="Last name"
+                      />
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <textarea
+                      class="form-control"
+                      id="exampleFormControlTextarea1"
+                      rows="3"
+                      placeholder="Message..."
+                    ></textarea>
+                  </div>
+                  <input
+                    type="button"
+                    value="Submit"
+                    class="position-relative"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <form action="" class="location-search position-relative">
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Enter your email to subscribe ..."
+              />
+              <input type="button" value="Subscribe" />
+            </form>
+          </div>
+          <div class="col-md-4">
+            <ul class="d-flex align-items-center justify-content-center">
+              <li>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="mt-4">
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/custom.js"></script>
+  </body>
+</html>
